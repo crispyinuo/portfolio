@@ -28,17 +28,17 @@ export default function Navbar()
 
                             <div className="collapse offset-md-4 navbar-collapse">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                    
+        
                                     <li className="nav-item">
                                     <a className="nav-link nav_text btn btn_effect" href="#aboutme"> About Me </a>
                                     </li>
                                     
                                     <li className="nav-item">
-                                    <a className="nav-link nav_text btn btn_effect" href="#" data-bs-toggle="modal" data-bs-target="#contactModal"> Contact Me </a>
+                                    <a className="nav-link nav_text btn btn_effect" href="#project"> Projects </a>
                                     </li>
-                                    
+
                                     <li className="nav-item">
-                                    <a className="nav-link nav_text btn btn_effect" href="#project"> My Projects </a>
+                                    <a className="nav-link nav_text btn btn_effect" href="#contact" data-bs-toggle="modal" data-bs-target="#contactModal"> Contact Me </a>
                                     </li>
                                 </ul>
                             </div>
@@ -54,9 +54,9 @@ export default function Navbar()
                 <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 
                 <div className="overlay-content">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" className="btn_effect">Contact Me</a>
                 <a href="#aboutme" className="btn_effect">About Me</a>
                 <a href="#project" className="btn_effect">Projects</a>
+                <a href="#contact" data-bs-toggle="modal" data-bs-target="#contactModal" className="btn_effect">Contact Me</a>
                 </div>
 
             </div>
