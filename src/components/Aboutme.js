@@ -31,7 +31,7 @@ function Aboutme()
                 <div className="col-md-6 mx-auto d-flex flex-wrap mt-2 mb-4 justify-content-center bio_tabs">
 
                     <div className={toggleState === 1 ? "tabs active flex-item mx-auto tablinks bio_tabs_item" : "tabs flex-item mx-auto tablinks bio_tabs_item"} onClick={() => toggleTab(1)}>
-                        MY SKILLS   
+                        TECH SKILLS   
                     </div>
 
                     <div className={toggleState === 3 ? "tabs active flex-item mx-auto tablinks bio_tabs_item" : "tabs flex-item mx-auto tablinks bio_tabs_item"} onClick={() => toggleTab(3)}>
@@ -43,7 +43,7 @@ function Aboutme()
                     </div>
 
                     <div className={toggleState === 2 ? "tabs active flex-item mx-auto tablinks bio_tabs_item" : "tabs flex-item mx-auto tablinks bio_tabs_item"} onClick={() => toggleTab(2)}>
-                        ADDITIONAL SKILLS   
+                        OTHERS  
                     </div>
 
                 </div>
@@ -56,7 +56,7 @@ function Aboutme()
                 {/* skills start */}
                 <div className={toggleState === 1 ? "content_abtme  active-content_abtme" : "content_abtme"}>
                     
-                    <div className="container-fluid">
+                    <div className="container-fluid abt_anim">
                         <div className="row">
                             <div className="col-lg-6 mx-auto abt_cont pb-4">
          
@@ -165,11 +165,27 @@ function Aboutme()
 
                     <div className="container-fluid abt_anim">
                     <div className="row text-center">
-                        <div className="col-md-7 mx-auto abt_cont edu_cont">              
+                        <div className="col-md-7 mx-auto abt_cont edu_cont"> 
+                        
+                        <div style={{"borderBottom": "10px solid #6997BD"}}>       
+                                        <i className="fa-solid fa-laptop-code my-3" style={{"color":"#6997BD", "fontSize":50}}></i>
+                                        <h5>May 2022 Present</h5>
+                                        <h5>NextPlate</h5>
+                                        <h3 className="my-2">Software Engineer</h3>
+                                        <h5>Los Angeles, CA</h5>
+
+                                        <h5 className='text-start text-light' style={{"lineHeight":1.5}}>
+                                            <ul>
+                                                <li> Wrote Front End features for NextPlate App.</li>
+                                            </ul>
+                                        </h5>
+                        </div>
+
+                        <div style={{"borderBottom": "10px solid #6997BD"}}>       
                                         <i className="fa-solid fa-laptop-code my-3" style={{"color":"#6997BD", "fontSize":50}}></i>
                                         <h5>Feb 2022 - Present</h5>
                                         <h5>Tera Thought</h5>
-                                        <h3 className="my-2">ANDROID DEVELOPER</h3>
+                                        <h3 className="my-2">Android Developer</h3>
                                         <h5>Los Angeles, CA</h5>
 
                                         <h5 className='text-start text-light' style={{"lineHeight":1.5}}>
@@ -178,6 +194,24 @@ function Aboutme()
                                                 <li> Implement features using Java, Kotlin & Firebase with Android Studio. </li>
                                             </ul>
                                         </h5>
+                        </div>
+
+                        <div style={{"borderBottom": "10px solid #6997BD"}}>       
+                                        <i className="fa-solid fa-laptop-code my-3" style={{"color":"#6997BD", "fontSize":50}}></i>
+                                        <h5>May 2021 - Aug 2021</h5>
+                                        <h5>Tencent</h5>
+                                        <h3 className="my-2">Product Intern</h3>
+                                        <h5>Shanghai, China</h5>
+
+                                        <h5 className='text-start text-light' style={{"lineHeight":1.5}}>
+                                            <ul>
+                                                <li> Took charge of Business Development and Outsourcing, established partnerships and connections with more than 10
+	                                                potential clients through Game Industry Conferences, business matching systems, and LinkedIn reach-outs.</li>
+                                                <li> Proposed and facilitated B2B global marketing strategies for a game-testing Platform (WeTest) by Tencent. </li>
+                                                <li> Wrote weekly blogs about Quality Assurance Services and Game-Testing, boosted the public exposure by 300%. </li>
+                                            </ul>
+                                        </h5>
+                        </div>
                         </div>
                     </div>
                     </div>
