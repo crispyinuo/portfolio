@@ -58,22 +58,23 @@ function Aboutme()
                     
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-lg-6 mx-auto abt_cont">
+                            <div className="col-lg-6 mx-auto abt_cont pb-4">
          
                                     <div className="skill_boxtype2 mt-5 mx-auto d-flex text-center flex-wrap">	
 
                                     <div className="row">
                                         <div className="col"> <i className="fa-brands fa-html5" style={{"color": "rgba(255,103,57,.9)"}}></i> <h6>HTML</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-css3-alt" style={{"color": "#5DADE2"}}></i> <h6>CSS</h6> </div> 
-                                        <div className="col"> <i className="fa-brands fa-bootstrap" style={{"color": "#AF7AC5"}}></i> <h6>BOOTSTRAP</h6> </div>     
-                                        <div className="col"> <i className="fa-brands fa-js-square" style={{"color": "yellow"}}></i> <h6>JAVASCRIPT</h6> </div> 
+                                        <div className="col"> <i className="fa-brands fa-bootstrap" style={{"color": "#AF7AC5"}}></i> <h6>BOOT STRAP</h6> </div>     
+                                        <div className="col"> <i className="fa-brands fa-js-square" style={{"color": "yellow"}}></i> <h6>JAVA SCRIPT</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-react" style={{"color": "#61dafb"}}></i> <h6>REACT</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-envira" style={{"color": "#82E0AA"}}></i> <h6>MONGO DB</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-github" style={{"color": "black"}}></i> <h6>GIT HUB</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-git-alt" style={{"color": "#f14e32"}}></i> <h6>GIT</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-java" style={{"color": "#f89820"}}></i> <h6>JAVA</h6> </div> 
                                         <div className="col"> <i className="fa-brands fa-python" style={{"color": "#3571A1"}}></i> <h6>PYTHON</h6> </div>
-                                        <div className="col"> <i className="fa-brands fa-r-project" style={{"color": "#266DC2"}}></i> <h6>R</h6> </div>               
+                                        <div className="col"> <i className="fa-brands fa-r-project" style={{"color": "#266DC2"}}></i> <h6>R</h6> </div>   
+                                        <div className="col"> <i className="fa-brands fa-ubuntu" style={{"color": "#E05823"}}></i> <h6>Ubuntu</h6> </div>                           
                                     </div>	
                                     </div>
        
