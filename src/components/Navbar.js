@@ -1,6 +1,13 @@
 import '../css/navbar.css'
 
 import nav_logo from '../imgs/avatar_logo.png'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faScrewdriverWrench,
+} from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar()
@@ -28,17 +35,23 @@ export default function Navbar()
 
                             <div className="collapse offset-md-4 navbar-collapse">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        
+                                    
                                     <li className="nav-item">
-                                    <a className="nav-link nav_text btn btn_effect" href="#aboutme"> About Me </a>
+                                    <a className="nav-link nav_text btn btn_effect" href="#aboutme">
+                                        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                                    </a>
                                     </li>
                                     
                                     <li className="nav-item">
-                                    <a className="nav-link nav_text btn btn_effect" href="#project"> Projects </a>
+                                    <a className="nav-link nav_text btn btn_effect" href="#project"> 
+                                        <FontAwesomeIcon icon={faScrewdriverWrench} color="#4d4d4e" />
+                                    </a>
                                     </li>
 
                                     <li className="nav-item">
-                                    <a className="nav-link nav_text btn btn_effect" href="#contact" data-bs-toggle="modal" data-bs-target="#contactModal"> Contact Me </a>
+                                    <a className="nav-link nav_text btn btn_effect" href="#contact">
+                                        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />  
+                                    </a>
                                     </li>
                                 </ul>
                             </div>
@@ -60,7 +73,7 @@ export default function Navbar()
                 </div>
 
             </div>
-
+            
             {/* responsive navbar end */}
         </>
     );

@@ -1,7 +1,8 @@
-import '../css/Openingpage.css'
-import Navbar from "./Navbar"
-import zzLogo from "../imgs/ZZ_logo.png"
-import profile from "../imgs/profile.jpeg"
+import '../css/Openingpage.css';
+import Navbar from "./Navbar";
+import zzLogo from "../imgs/ZZ_logo.png";
+import profile from "../imgs/profile.jpeg";
+import Sidebar from './Sidebar';
 
 function Openingpage()
 {
@@ -10,6 +11,7 @@ function Openingpage()
             <div className="container-fluid opening_page mt-2 pb-0" style={{"overflowX":"hidden"}}>
 
                 <Navbar></Navbar>
+                <Sidebar/>
                 
                 <div className="row mt-5 mb-1 pt-5 ">
 
