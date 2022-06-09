@@ -1,8 +1,8 @@
 import React from "react";
 import {
   FaGithub,
-  FaFacebookF,
   FaLinkedin,
+  FaEnvelope,
 } from "react-icons/fa";
 import '../css/Sidebar.css';
 
@@ -18,12 +18,6 @@ export default function Sidebar(){
             </a>
           </li>
 
-          <li>
-            <a href="">
-              <FaFacebookF />
-            </a>
-          </li>
-
 
           <li>
             <a href="https://www.linkedin.com/in/crispyinuo/" target="_blank" rel="noopener noreferrer">
@@ -31,8 +25,15 @@ export default function Sidebar(){
             </a>
           </li>
 
+          <li>
+            <a href="mailto: zoezhou0423@gmail.com">
+              <FaEnvelope />
+            </a>
+          </li>
+
+
       </ul>
-      <p>Follow Me</p>
+      <p>Contact me</p>
     </div>
   );
 };
