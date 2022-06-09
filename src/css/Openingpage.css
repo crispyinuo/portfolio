@@ -33,38 +33,6 @@
   }
 }
 
-.intro_img
-{
-	font-size: 200px; 
-	color: white; 
-	text-align: center;
-	font-weight: 1000 !important; 
-	text-shadow: 15px 15px #CBB26A; 
-	font-family: brandon-grotesque, Helvetica, sans-serif, cursive;
-	animation: intro_anim_2 4s ease 0s 1 normal forwards;
-}
-
-@media only screen and (max-width: 870px)
-{
-	.intro_img{
-		font-size: 140px;
-		order: -1;
-		text-align: center;
-	}
-}
-
-@keyframes intro_anim_2 {
-  0% {
-    opacity: 0;
-    transform: translateX(-400px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 .intro p:last-child
 {
 	font-size: 25px;
@@ -145,17 +113,18 @@
 }
 
 .css-typing p {
-    border-right: .15em solid orange;
+    border-right: .15em solid #6997BE;
     font-family: "Courier";
     font-size: 14px;
-    color:white;
+    color:#7b7f92;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 0px;
-    max-width: 450px;
+    width: 440px; 
   }
+
   .css-typing p:nth-child(1) {
-    width: 700px; 
+    width: 440px; 
     opacity: 0;
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
@@ -166,7 +135,7 @@
   }
   
   .css-typing p:nth-child(2) {
-    width: 700px; 
+    width: 420px; 
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -177,10 +146,10 @@
   }
   
   .css-typing p:nth-child(3) {
-    width: 620px; /* manually set width */
+    width: 215px; /* manually set width */
     opacity: 0;
-    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
     -webkit-animation-delay: 7s;
     animation-delay: 7s;
     -webkit-animation-fill-mode: forwards;
@@ -195,7 +164,7 @@
         opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .15em solid #6997BE;
     }
     100% {
       opacity: 1;
@@ -211,7 +180,7 @@
         opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .15em solid #6997BE;
     }
     100% {
       opacity: 1;
@@ -227,7 +196,7 @@
       opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .15em solid #6997BE;
     }
     100% {
       opacity: 1;
@@ -243,7 +212,7 @@
       opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .15em solid #6997BE;
     }
     100% {
       opacity: 1;

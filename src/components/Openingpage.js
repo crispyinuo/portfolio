@@ -31,15 +31,17 @@ function Openingpage()
                     </div>
 
 
-                <div className="col-md-4 col-lg-4 mx-auto text-center">
-                    <img src={profile} alt="profile pic" className="img-fluid animated fadeInUp profilePic"  />
-                </div>
+                    <div className="col-md-4 col-lg-4 mx-auto text-center">
+                        <img src={profile} alt="profile pic" className="img-fluid animated fadeInUp profilePic"  />
+                    </div>
 
                 </div>
-                <div className="row mb-5">
-                    <div className="col-lg-6 css-typing offset-md-1 text-center">
-                        <p> I am a Computer Science/Business Administration</p>
-                        <p> Undergrad student at University of Southern California. </p>
+
+                <div className="row mb-4 pt-5">
+                    <div className="col-lg-6 offset-md-1 mb-1 text-center css-typing">
+                        <p> A Senior student @University of Southern California. </p>
+                        <p> Major in Computer Science/Business Administration. </p>
+                        <p> Based in Los Angeles, CA.</p>
                     </div>
 
                     <div className="col-md-4 col-lg-4 mx-auto text-center">
